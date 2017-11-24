@@ -1,0 +1,263 @@
+/* Vendor prefixes help different browsers recognize the styles to be as consistent as possible. Vendor prefixes are not required but are recommended. Each vendor prefix is commented below. */
+
+div {
+  width:5vw;
+  height:10vh;
+  background-color:red;
+  -webkit-transition: width 2s, height 4s;  /* Chrome, Safari, newer versions of Opera, almost all iOS browsers (including Firefox for iOS); basically, any WebKit based  */
+  -moz-transition: width 2s, height 4s;  /* Mozilla Firefox  */
+  -o-transition: width 2s, height 4s;  /* Old, pre-WebKit, versions of Opera  */ 
+  -ms-transition: width 2s, height 4s;  /* Internet Explorer and Microsoft Edge  */
+  transition:width 2s, height 4s; /* Shorthand but not browser specific */
+  
+  -webkit-transition-timing-function: linear; /* Which browser am I a prefix for? */
+  -moz-transition-timing-function: linear; /* Which browser am I a prefix for? */
+  -o-transition-timing-function: linear; /* Which browser am I a prefix for? */
+  -ms-transition-timing-function: linear; /* Which browser am I a prefix for? */
+   transition-timing-function: linear; /* Which browser am I a prefix for? */
+  
+  
+  transition-delay: .25s; /* Which browser am I a prefix for? And what is the max I should ever do this for? */
+}
+
+div:hover {
+  width:10vw;
+  height:20vh;
+}
+
+
+a:link
+{
+    text-decoration: none;
+}
+
+/*alinhar conteudo*/
+section{
+  width: 16%;
+  height: 37em;
+  align-content: center;
+  float: left;
+  padding-top: 3em;
+}
+
+
+.bg-black{
+  background-color: black;
+}
+.bg-blue{
+  background-color: blue;
+}
+.bg-gray{
+  background-color: gray;
+}
+.bg-red{
+  background-color: red;
+}
+
+.bg-pink{
+  background-color: pink;
+}
+
+.bg-green{
+  background-color: green;
+}
+
+.bg-yellow{
+  background-color: yellow;
+}
+
+.bg-purple{
+  background-color: purple;
+}
+
+
+h5{
+  text-align: center;
+  padding-top: 4em;
+}
+
+p{
+  text-align: center;
+}
+
+/*Alinhar center*/
+.swatches4 li{
+  list-style-type: none;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  float:left;
+  margin: .5em;
+}
+
+.swatches4{
+  padding-left: 1em;
+}
+
+.swatches3 li{
+  list-style-type: none;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  float:left;
+  margin: .5em;
+}
+
+.swatches3{
+  padding-left: 2.5em;
+}
+
+.swatches2 li{
+  list-style-type: none;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  float:left;
+  margin: .5em;
+}
+
+.swatches2{
+  padding-left: 4em;
+}
+
+.swatches1 li{
+  list-style-type: none;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  float:left;
+  margin: .5em;
+}
+
+.swatches1{
+  padding-left: 6em;
+}
+
+
+#price{
+  font-weight: bold;
+  text-decoration: none;
+  color: red;
+  width: 50%;
+  text-align: center;
+  padding-left: 3.5em;
+}
+
+
+.strikethrough{
+  font-weight: bold;
+  text-decoration: line-through;
+  color: black;
+}
+
+
+/*Alinhar center*/
+.rate{
+  padding-left: 4em;
+}
+
+button{
+  padding: 2px 2px 2px 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*If you see this ignore it. I am adjusting the size of the navigation that takes you back and forth between the two pages we worked on during class.*/
+
+a:first-of-type {
+  color:#000;
+  font-size:1.5rem;
+  font-weight:600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
